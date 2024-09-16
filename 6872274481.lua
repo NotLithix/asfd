@@ -9790,9 +9790,9 @@ run(function()
 end)
 
 local Connection
-runFunction(function ()
+run(function()
 	TxtPack = GuiLibrary.ObjectsThatCanBeSaved.RenderWindow.Api.CreateOptionsButton({
-		Name = "Texture Pack"
+		Name = "Texture Pack",
 		Function = function(callback)
 			if callback then
 				--// services
